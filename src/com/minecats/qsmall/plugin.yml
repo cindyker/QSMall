@@ -1,0 +1,14 @@
+name: QSMall
+version: 1.0
+main: com.minecats.qsmall.QSMall
+author: cindy_k
+
+description: Adds Mall Stores to QuickShops plugin using WorldGuard and WorldEdit
+website: http://www.minecats.com
+depend: [QuickShop,WorldGuard, WorldEdit]
+commands:
+    qsmall:
+        usage: /qsmall [command]
+        aliases: [qsm]
+        description: Access qsmall commands
+        permission-message: You don't have <permission>
